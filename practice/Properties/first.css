@@ -1,3 +1,19 @@
-h1{
-    color: rgb(255, 0, 0);
+#heading1{
+    color:darkred;
+    text-align:center;
+    text-decoration:overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px green;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+}
+.heading2{
+    color: green;
+}
+.para{
+    line-height: 20px;
 }

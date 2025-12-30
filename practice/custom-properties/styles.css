@@ -1,0 +1,9 @@
+:root{
+    --my-color:#d36e3b;
+}
+
+
+h1{
+    color: var(--my-color);
+    text-align: center;
+}
