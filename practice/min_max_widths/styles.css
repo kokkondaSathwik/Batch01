@@ -1,0 +1,6 @@
+.first{
+    max-width: 300px;
+    min-width: 100px;
+    /* width: 300px; */
+    border: 2px solid black;
+}
