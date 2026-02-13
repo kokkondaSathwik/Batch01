@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: saddlebrown;
+    color:yellow;
+    text-align: center;
+}
+body{
+    /* background-color: blanchedalmond; */
+    /* background-image: linear-gradient(to left,blue,green,yellow); */
+    background-image: url(./leaf.jpg);
+    background-repeat: no-repeat;
+    /* background-size: center; */
+    background-attachment: fixed;
+}
