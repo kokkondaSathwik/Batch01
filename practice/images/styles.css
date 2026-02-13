@@ -1,0 +1,22 @@
+h1{
+    background-color: blanchedalmond;
+    color: saddlebrown; 
+    text-align: center;
+}
+.img1{
+    width: 300px;
+    float: right;
+    margin : 10px;
+}
+.img2{
+    width: 300px;
+    float: left;
+    margin : 10px;
+}
+.img3
+{
+    display: block;
+    width: 300px;
+    margin: auto;
+
+}
