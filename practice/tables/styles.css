@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COlumn span */
+
+table{
+    width: 700px;
+    margin : auto;
+    text-align: center;
+    margin-top: 100px;
+}
+table,th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+
+/* Rowspan */
+
+/* table{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+} */
+
+/* Normal table */
+
+/* table{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+thead{
+    background-color: cadetblue;
+    color: yellow;
+}
+tbody{
+    background-color: lightpink;
+    color: chocolate;
+}
+tr:hover{
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+} */
