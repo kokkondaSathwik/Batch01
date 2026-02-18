@@ -11,15 +11,78 @@
         <!-- Username -->
          <div>
         <label for="username">Username</label>
-       <input type="text" name="username" id="username">
+       <input type="text" name="username" id="username" placeholder="Eg: Sathwik" required minlength="3" maxlength="5">
         </div>
        <!-- Password -->
         <div>
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
         </div>
+        <!-- Age -->
+         <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="20" max="30">
+         </div>
+         <!-- Date of Joining -->
+          <div>
+            <label for="date">Date of Joining</label>
+            <input type="date" name="date" id="date">
+          </div>
+          <!-- email -->
+           <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+           </div>
+           <!-- File Selection -->
+            <div>
+                <label for="file">Upload the file</label>
+                <input type="file" name="file" id="file">
+
+            </div>
+
+            <!-- Technical Skills -->
+             <div>
+                <label>Technical skills</label>
+                <!-- Checkbox 1 -->
+                <input type="checkbox" name="html" id="html">
+                <label for="html">HTML</label>
+                <!-- Checkbox 2 -->
+                <input type="checkbox" name="css" id="css">
+                <label for="css">CSS</label>
+                <!-- Checkbox 3 -->
+                <input type="checkbox" name="js" id="js">
+                <label for="js">JavaScript</label>
+             </div>
+
+             <!-- Gender Selection -->
+              <div>
+                <label>Gender</label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+              </div>
+
+
+
+           <!-- Select the state -->
+            <div>
+                <label for="select">Select the State</label>
+                <select name="select" id="select">
+                    <option value="" disabled selected>--select the state--</option>
+                    <option value="">Telangana</option>
+                    <option value="">AP</option>
+                    <option value="">TN</option>
+                </select>
+            </div>
+        
+            <!-- Feedback -->
+            <div>
+                <label for="feedback">Feedback</label>
+                <textarea name="feedback" id="feedback" cols="20" rows="10"></textarea>
+            </div>
         <!-- Login -->
-         <button type="submit">Login</button>      
+         <button type="submit">Registration</button>      
     </form>
 </body>
 </html>
