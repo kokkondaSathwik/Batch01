@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR STYLES */
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 15px 30px;
+    align-items: center;
+    
+} */
+/* nav img{
+    width: 60px;
+} */
+/* nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    color: goldenrod;
+    font-size: 20px;
+} */
+
+/* Header styles */
+/* header{
+    background-image: linear-gradient(to right,rgba(68,68,68,0.27),#303030),url(https://www.bing.com/th/id/OIP.Xi302bRbyTrGQFJHk35m4wHaE8?w=208&h=128&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+} */
+/* header .header-content{
+    width: 700px;
+    color: gold;
+    font-size: 30px;
+} */
+/* main{
+    min-height: 100vh;
+    margin-top: 50px;
+} */
+/* main .row1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap:20px;
+} */
+
+/* main .shirt-card{
+    width: 300px;
+    padding: 20px 30px; 
+    text-align: center;
+    border: 3px solid black;
+} */
+/* main img{
+    width: 250px;
+} */
+/* main button{
+    background-color: yellow;
+} */
+/* footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:aquamarine;
+    font-weight: bold;
+    padding: 15px;
+} */
