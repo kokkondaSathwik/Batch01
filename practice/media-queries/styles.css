@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:500px)
+{
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:700px)
+{
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:700px)
+{
+    body{
+        background-color: orange;
+    }
+}
