@@ -1,0 +1,10 @@
+:root{
+    --my-color:#ad3027;
+}
+
+h1{
+    color:var(--my-color);
+}
+p{
+    color:var(--my-color);
+}
