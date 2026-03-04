@@ -104,3 +104,72 @@ let arr = [10,20,30]
 
 // arr.splice(2,1);
 // console.log(arr);
+
+// objects
+
+// let student ={
+//     sno:100,
+//     name:"John",
+//     age:20,
+//     city:"New York"
+// }
+
+// console.log(student);
+// console.log(student.name);
+// console.log(student.city);
+
+// let emp = {
+//     eno:100,
+//     name:'Sathwik'
+// }
+
+// console.log(emp.eno);
+// console.log(emp.name);
+// console.log(emp.city);
+
+
+// for (let x in emp)
+// {
+//     console.log(emp[x]);
+// }
+
+// emp.city = "Bangalore"; 
+
+// emp.name = "Sathwik Reddy";
+
+// delete emp.eno;
+// console.log(emp);
+
+//complex object
+
+// let student = {
+//     sno:100,
+//     name:'Sathwik',
+//     marks:[90,80,85],
+//     address:{
+//         street:'Bachupally X Road',
+//         pincode:506313,
+//         city:'Hyderabad'
+//     }
+// }
+
+// console.log(student);
+// console.log(student.sno);
+// console.log(student.name);
+// console.log(student.marks[0]);
+// console.log(student.marks[1]);
+// console.log(student.marks[2]);
+
+class Person{
+    constructor(id,name,age)
+    {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+}
+
+let person1 = new Person(100,'Sathwik',20);
+console.log(person1);
+let person2 = new Person(101,'John',25);
+console.log(person2);
