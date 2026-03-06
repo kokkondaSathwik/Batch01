@@ -328,25 +328,25 @@ This is a multi line comment
 
 // First i try to create the person object blueprint
 
-class Person{
+// class Person{
 
-    constructor(id,name,age)
-    {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-    }
-    // we are using this keyword to refer the current object which is being created by the class. eg person56 id this.id = id;
-}
+//     constructor(id,name,age)
+//     {
+//         this.id = id;
+//         this.name = name;
+//         this.age = age;
+//     }
+//     // we are using this keyword to refer the current object which is being created by the class. eg person56 id this.id = id;
+// }
 
-let person1 = new Person(1,'Sathwik',21);
-console.log(person1);
+// let person1 = new Person(1,'Sathwik',21);
+// console.log(person1);
 
-let person2 = new Person(2,'Hema',20);
-console.log(person2);
+// let person2 = new Person(2,'Hema',20);
+// console.log(person2);
 
-let person3 = new Person(3,'Poojitha',19);
-console.log(person3);
+// let person3 = new Person(3,'Poojitha',19);
+// console.log(person3);
 
 
 

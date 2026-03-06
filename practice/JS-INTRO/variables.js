@@ -160,16 +160,18 @@ let arr = [10,20,30]
 // console.log(student.marks[1]);
 // console.log(student.marks[2]);
 
-class Person{
-    constructor(id,name,age)
-    {
-        this.id = id;
-        this.name = name;
-        this.age = age;
-    }
-}
+// class Person{
+//     constructor(id,name,age)
+//     {
+//         this.id = id;
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
 
-let person1 = new Person(100,'Sathwik',20);
-console.log(person1);
-let person2 = new Person(101,'John',25);
-console.log(person2);
+// let person1 = new Person(100,'Sathwik',20);
+// console.log(person1);
+// let person2 = new Person(101,'John',25);
+// console.log(person2);
+
+// Advance Array methods
