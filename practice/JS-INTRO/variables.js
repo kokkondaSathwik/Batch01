@@ -70,7 +70,7 @@
 
 //arrays
 
-let arr = [10,20,30]
+// let arr = [10,20,30]
 // console.log(arr[0]);
 // console.log(arr[1]);
 // console.log(arr[2]);
@@ -175,3 +175,70 @@ let arr = [10,20,30]
 // console.log(person2);
 
 // Advance Array methods
+
+// let arr = [90,34,-45,67,12,567];
+
+
+//get the elements less than 100
+
+//without using filter method
+
+// let result = []
+// for(let element of arr)
+// {
+//     if(element < 100)
+//     {
+//         result.push(element);   
+//     }
+// }
+
+// console.log(result);
+
+
+// using filter method
+
+
+// let result1= arr.filter(function(element){
+//     return element<50;
+// })
+
+// console.log(result1);
+
+// let newArr = arr.map(function(element){
+//     return element + 1;0
+// })
+
+// console.log(newArr);
+
+
+// loops
+//for loop
+
+// for(let index = 0;index <arr.length;index++)
+// {
+//     console.log(arr[index]);
+// }
+
+//for of loop
+
+// for(let element of arr)
+// {
+//     console.log(element);
+// }
+
+//forEach loop
+
+// arr.forEach(function(element,index){
+//     console.log(element,index);
+// })
+
+
+//sum of elements in the array
+// let arr1 =[20,100,300]
+// let sum = arr1.reduce((accumulator,element)=> accumulator + element)
+// console.log(sum);
+
+// find element
+
+// let foundElement = arr1.findIndex(element => element == 100);
+// console.log(foundElement);
