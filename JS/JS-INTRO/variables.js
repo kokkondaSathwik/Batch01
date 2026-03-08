@@ -354,6 +354,108 @@ This is a multi line comment
 // function outside the class or object is called as function only
 // but the same function when we are using inside the class or object it becomes the method.
 
+//Advanced Array Methods
+
+//1 Filter Method
+
+
+
+// Filter method is used only to select the few important elements from the array.
+// To find the elements which are less than 100
+//Without using filter method
+
+// let result =[];
+
+// for(let element of arr)
+// {
+//     if(element < 100)
+//     {
+//         result.push(element);
+//     }
+// }
+// console.log(result);
+
+// Using filter method
+
+// let result1 =arr.filter(function(element){
+//     return element < 100;
+// })
+// console.log(result1);
+
+// Filter method is used only for the selection not for the modification of the elements in the array.
+
+// What method i have to used to modify the elements : Map Method
+// let result2 = arr.map(function(element){
+//     return element + 100;
+// })
+// console.log(result2);
+
+
+
+// Map method is used for the modification of elements.
+
+// forEach Method
+// It is not used for both selection and as well as modification
+// It is used only for the iteration purpose.
+
+// for loop
+// let arr = [90,34,-45,67,-12,567]
+// for(let index = 0;index <arr.length; index++)
+// {
+//     console.log(arr[index]);
+// }
+
+// for of loop
+
+// for(let element of arr)
+// {
+//     console.log(element);
+// }
+// For of loop doesnt care about the index it directly retrieve the elements of the array
+
+
+//forEach method
+
+// We are going for the forEach method because it is very easy to get our elements as well as our index values.
+// arr.forEach(function(element,index){
+//     console.log(element,index);
+// })
+
+//Reduce Method.
+
+//It is used to reduce the array into the single value.
+
+// let arr1 = [20,100,300]
+
+// find the sum of the elements in the array
+
+//accumulator - it takes the value of the first element
+
+
+// let sum = arr1.reduce( (accumulator,element) => accumulator+element)
+// console.log(sum);
+
+
+// find method to find the element in the array
+
+// let foundElement = arr1.find( element => element === 20)
+// console.log(foundElement);
+
+//findIndex method to find the index of the element in the array
+// if the element is not present in the array then it will return -1
+
+// let foundElement2 = arr1.findIndex( element => element === 900)
+// console.log(foundElement2);
+
+
+
+
+
+
+
+
+
+
 
 
 

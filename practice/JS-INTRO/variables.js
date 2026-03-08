@@ -205,7 +205,7 @@
 // console.log(result1);
 
 // let newArr = arr.map(function(element){
-//     return element + 1;0
+//     return element + 100;
 // })
 
 // console.log(newArr);
