@@ -1,0 +1,10 @@
+console.log("first");
+console.log("second");
+try{
+console.log("third");
+}
+catch(err)
+{
+    console.log(err);
+}
+console.log("fourth");
