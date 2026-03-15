@@ -30,7 +30,7 @@ let btn = document.querySelector('button');
 
 //add event listener to the button
 
-btn.addEventListener('click',()=>{
+btn.addEventListener('mouseover',()=>{
 heading.textContent = "Document Object Model";
 heading.style.color = 'red';
 heading.style.backgroundColor = 'green';
