@@ -27,3 +27,21 @@
 
 // let jsonData = JSON.stringify(obj);
 // console.log(jsonData);
+
+// APIS
+
+// API stands for Application Programming Interface
+
+// This is the working of GET HTTP request/ AJAX request / API request
+
+fetch('https://jsonplaceholder.typicode.com/users')
+// fetch is a method which returns a promise
+.then(response => response.json())
+// response.json() is a method which converts the JSON data into a JavaScript object
+.then(json => console.log(json))
+// It is used to print the Javascript object in the console
+.catch(error => console.log(error));
+// catch is a method which can handle the error if there is any error in the fetch method
+
+
+
