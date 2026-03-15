@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 50px;
+}
+button{
+    display: block;
+    margin: auto;
+    padding : 20px;
+}
